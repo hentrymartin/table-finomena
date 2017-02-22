@@ -1,0 +1,26 @@
+body, html {
+    height : 100%;
+    width : 100%;
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 200px;
+    border: 1px solid #c8c8c8;
+}
+
+.table .child {
+    flex: 1 1 auto;
+    width: 170px;
+    min-height: 100px;
+    border: 1px solid #c8c8c8;
+    line-height: 100px;
+    text-align: center;
+}
